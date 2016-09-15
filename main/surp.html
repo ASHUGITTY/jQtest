@@ -2,8 +2,46 @@
 <html>
 <head>
 	<title>Surprise</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+		$('.enterButton').click(function(){
+
+		$('.enterButton').effect('explode');
+		$('body').css('background-color','#ccffcc');
+	});
+
+
+
+
+
+	});
+
+
+</script>
 </head>
+<style type="text/css">
+	
+.enterButton
+{
+
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background: #ffa3bb;
+	margin-top: 20%;
+	margin-left: 40%;
+}
+
+
+
+</style>
+
 <body style="background-color:#baf8f2">
+
+<div class="enterButton"></div>
 
 
 
